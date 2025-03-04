@@ -36,7 +36,7 @@ Tab:Keybind("Formless", Enum.KeyCode.F, function()
 	    humanoidRootPart.Anchored = false
     VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.R, false, game)
     VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.R, false, game)
-    wait(0.055)
+    wait(0.045)
     VirtualInputManager:SendMouseButtonEvent(0, 0, 1, true, game, 0)
     VirtualInputManager:SendMouseButtonEvent(0, 0, 1, false, game, 0)
     wait(0.03)
